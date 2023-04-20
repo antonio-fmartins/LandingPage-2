@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>ADVENTURE</title>
+</head>
+<body>
+  <nav class="container-menu">
+    <h2>ADVENTURE</h2>
+    <ul class="container-link">
+          <li class="active">Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li class="ctn">Contact Us</li>
+    </ul>
+    <img class="menu-btn" src="./img/menu-btn.png" alt="menu-btn">
+  </nav><!--container-menu-->
+  <header>
+      <div class="container">
+          <h2>Explore The Colourful World</h2>
+          <div class="line"></div>
+          <h1>A WONDERFUL GIFT</h1>
+          <a class="ctn"href="#">Learn More</a>
+      </div><!--container-->
+  </header>
+<!----------------SECTION CONTAINER2-------------------->
+  <section class="events">
+      <h2>UPCOMING EVENTS</h2>
+      <div class="line"></div>
+      <div class="row">
+          <div class="col">
+              <img src="img/img1.png"/>
+              <h3>Everest Camp Trek</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quia modi dicta sequi totam dignissimo.</p>
+              <a class="ctn" href="#">Learn More</a>
+          </div>
+          <div class="col">
+              <img src="img/img2.png"/>
+              <h3>Walking Holidays</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quia modi dicta sequi totam dignissimo.</p>
+              <a class="ctn" href="#">Learn More</a>
+          </div>        
+      </div>
+  </section>
+  <!----------------SECTION CONTAINER 3--------------------->
+  <section class="container3">
+    <div class="text-box">
+          <h1>EXPLORE THE WORLD</h1>
+          <div class="line"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates explicabo natus tempora temporibus eaque, at autem corrupti cum provident vero, accusamus quae esse.</p>
+          <a class="ctn" href="">Learn More</a>
+    </div> 
+  </section>
+
+<!------------------SECTION CONTAINER 4-------------------->
+<section class="container4">
+  <div class="text-img-container4">
+        <div class="text-container4">
+              <h1>UPCOMIG TOURS & DESTINATION</h1>
+              <div class="line"></div>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ipsam culpa rem ipsa. Minima, architecto facilis est necessitatibus ab earum deleniti, itaque dolore hic nobis molestias vero qui quos? 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam magnam commodi voluptas, dolores enim, sed... </p>
+              <a href="#" class="ctn">Learn More</a>
+        </div><!--text-container4-->
+        <div class="img-container4">
+          <div class="box4-img">
+              <img src="img/img3.png"/>
+              <img src="img/img4.png"/>
+              <img src="img/img5.png"/>
+              <img src="img/img6.png"/>  
+          </div><!--box4-img-->  
+        </div><!--img-container4-->
+  </div><!--text-img-container4-->
+</section>
+
+<footer>
+  <h5>123 Fifth NY 10160 New York USA | Phone:800-123-456 | Email:contact@example.com</h5>
+  <p>Copyrigth 2020 Outdoor Adventure</p>
+</footer>
+
+
+  <!-----------------SCRIPT------------------------------>
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const containerlink = document.querySelector('.container-link')
+
+    menuBtn.addEventListener('click',()=>{
+      containerlink.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+</html>
